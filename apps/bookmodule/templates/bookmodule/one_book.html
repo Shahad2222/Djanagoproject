@@ -1,26 +1,19 @@
-<!DOCTYPE html>
+{% load static %}
+<!DOCTYPE htm1>
 <html lang="en">
 <head>
-  <title>Show one Book</title>
-  <meta charset="UTF-8">
+<title> Show one Book</title>
+<meta name="keywords" content="Books, recent, Learning, library"> <meta name="description" content= "Books website"> <meta name= "author" content="author name"><link rel="icon" href="qu-icon.jpeg">
+<meta charset="UTF-8">
 </head>
-
-<body>
-
-<a href="list_books.html">Go Back</a>
+‹<body>
+<a href="/books/">Go Back</a>
 
 <h1>Details of Book1</h1>
-
 <h2>Internet & World Wide Web How to Program</h2>
-
 <h2>Author: author name</h2>
-
-<p>
-Internet & World Wide Web How to Program
-provides a clear simple introduction to web programming
-</p>
-
-<img src="book1.jpg" width="200" height="200">
-
+<p><strong> Internet & World Wide Web How to Program, 5/e </strong> provides a clear, simple, engaging and entertaining introduction to Internet and web programming. It's appropriate for both introductory and intermediate-level client-side and server-side programming courses.</p>
+<img src="{% static 'book1.jpeg' %}" alt="Book1 img desc" width="200" height="200">
+<p>&copy; 2026 Library Website</p>
 </body>
-</html>
+ </html>
